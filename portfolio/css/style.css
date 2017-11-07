@@ -83,7 +83,7 @@ body{
     width: 161px;
     height: 161px;
 }
-.nav li a {
+.navbar-right li a, .navbar-left li a  {
 	color: gray;
     font-size: 22px;
     margin-left: 67px;
@@ -208,12 +208,12 @@ body{
 	
 .footer{
 	position:absolute;
-	left:35%;
-	top:70px
+	left:0;
+	top:0
 	
 }	
 .footer-menu{
-	float:left;
+	display:flex
 	
 }
 .footer-menu ul li{
@@ -299,8 +299,29 @@ body{
         .jssora051.jssora051dn {opacity:.5;}
         .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
 		
+@media (min-width: 768px) {
+	.navbar-left li a {
+   
+    font-size: 14px;
+    margin-left: 54px;	
+    margin-right: 0;	
+		}
+	.navbar-right li a{
+		font-size: 14px;
+		margin-right: 54px;
+		margin-left: 0;
+		}	
 		
-		
+	.navbar-collapse .navbar-brand .white-circle {
+    width: 112px;
+    height: 80px;
+	}
+	
+	.navbar-collapse .navbar-brand .white-circle .logo {
+    width: 100%;
+	margin-top: 9px;
+	}
+	}
 		
 		
 		
