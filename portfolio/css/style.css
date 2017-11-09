@@ -6,7 +6,11 @@
 	
 @font-face {
     font-family: arialLatArm;
-    src: url(../fonts/Arial-LatArm-Regular-9072.woff),
+    src: url(../fonts/Arial-LatArm-Regular-9072.woff);
+    src: url(../fonts/Arial-LatArm-Regular-9072.eot);
+    src: url(../fonts/Arial-LatArm-Regular-9072.ttf);
+    src: url(../fonts/Arial-LatArm-Regular-9072.otf);
+    src: url(../fonts/Arial-LatArm-Regular-9072.svg);
 
 }
 	
@@ -87,7 +91,7 @@ body{
 	color: gray;
     font-size: 22px;
     margin-left: 67px;
-    font-family: Arial LatArm;
+    font-family:arialLatArm;
     line-height: 73px;	
 }
 
@@ -126,13 +130,17 @@ body{
 	}
 
 
-.postName h1{
+ h1{
+	position:absolute;
+	top:70px;
+	left:30%;
 	text-align:center;
 	color:#fff;
 	font-style:italic;
-	margin-top:75px;
+	margin-top:-75px;
 	font-family:arialLatArm;
-	text-transform:uppercase
+	text-transform:uppercase;
+	font-weight:bold
 }
 .img{
 	width:100%;
@@ -213,8 +221,13 @@ body{
 	
 }	
 .footer-menu{
-	display:flex
-	
+	display:flex;
+	margin-top:60px
+
+}
+.adress{
+	margin-top:60px
+
 }
 .footer-menu ul li{
 	list-style:none
@@ -237,7 +250,8 @@ body{
     font-size: 18px;
     font-family: arialLatArm;
 	font-style:italic;
-	font-weight:bold
+	font-weight:bold;
+	
 }
 
 .social-icons{
