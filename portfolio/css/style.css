@@ -176,7 +176,7 @@ body{
 	}	
 .info p{
 	color:#fff;
-	font-family:Arial;
+	font-family:arialLatArm;
 	font-size:14px
 	}	
 .video {
@@ -191,12 +191,21 @@ body{
     height: 325px;;
 }
 	
-	
-.light {
+.light{
+	background-image: url("../images/light.png");
+  background-repeat:no-repeat;
+  height: 46px;
+  z-index: 7;
+	}	
+.lightTop {
   background-image: url("../images/light.png");
   background-repeat:no-repeat;
   height: 46px;
   z-index: 7;
+  position: absolute;
+  top: 70px;
+    left: 0;
+    width: 112%;
 }
 
 .slider{
