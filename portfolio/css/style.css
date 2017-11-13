@@ -24,7 +24,7 @@ body{
 .line {
 	background-image:url("../images/stver.png");
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: contain;
     background-position: center;
 	height:10px;
     margin-top: 20px;	
@@ -48,6 +48,10 @@ body{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+}
+
+.navbar-nav {
+    margin: 7.5px 0;
 }
 .navbar{
 	background-image:url("../images/header_bg.png");
@@ -134,7 +138,6 @@ body{
  h1{
 	position:absolute;
 	top:100px;
-	left:30%;
 	text-align:center;
 	color:#fff;
 	font-style:italic;
@@ -143,6 +146,12 @@ body{
 	text-transform:uppercase;
 	font-weight:bold
 }
+
+#jssor_1 :first-child{
+	position:relative;
+	
+	
+	}
 .img{
 	width:100%;
 	height: 500px;
@@ -201,11 +210,10 @@ body{
   background-image: url("../images/light.png");
   background-repeat:no-repeat;
   height: 46px;
-  z-index: 7;
-  position: absolute;
-  top: 70px;
-    left: 0;
-    width: 112%;
+  z-index: -10; 
+  top: 65px !important;  
+	transform: scale(1.2) !important;
+  background-size: contain;
 }
 
 .slider{
