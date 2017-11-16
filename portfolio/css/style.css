@@ -6,13 +6,17 @@
 	
 @font-face {
     font-family: arialLatArm;
-    src: url(../fonts/Arial-LatArm-Regular-9072.woff),
-    src: url(../fonts/Arial-LatArm-Regular-9072.eot),
-    src: url(../fonts/Arial-LatArm-Regular-9072.ttf),
-    src: url(../fonts/Arial-LatArm-Regular-9072.otf),
-    src: url(../fonts/Arial-LatArm-Regular-9072.svg)
+	 src: url(../fonts/Arial-LatArm-Regular-9072.eot),
+		url(../fonts/Arial-LatArm-Regular-9072.woff) format('woff'),
+		url(../fonts/Arial-LatArm-Regular-9072.ttf) format('truetype'),
+		url(../fonts/Arial-LatArm-Regular-9072.otf),
+		url(../fonts/Arial-LatArm-Regular-9072.svg)format('svg');
 
 }
+
+
+  
+	   
 body{
     
 	 background-image:url('../images/background.png');
@@ -405,7 +409,7 @@ margin-right:0
 	}
 		
 @media (max-width: 767px) {
-	.navbar-left li a {
+	.navbar-left li a ,.navbar-right li a  {
    
    
     margin-left: 0;	
