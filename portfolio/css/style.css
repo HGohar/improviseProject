@@ -6,11 +6,11 @@
 	
 @font-face {
     font-family: arialLatArm;
-    src: url(../fonts/Arial-LatArm-Regular-9072.woff);
-    src: url(../fonts/Arial-LatArm-Regular-9072.eot);
-    src: url(../fonts/Arial-LatArm-Regular-9072.ttf);
-    src: url(../fonts/Arial-LatArm-Regular-9072.otf);
-    src: url(../fonts/Arial-LatArm-Regular-9072.svg);
+    src: url(../fonts/Arial-LatArm-Regular-9072.woff),
+    src: url(../fonts/Arial-LatArm-Regular-9072.eot),
+    src: url(../fonts/Arial-LatArm-Regular-9072.ttf),
+    src: url(../fonts/Arial-LatArm-Regular-9072.otf),
+    src: url(../fonts/Arial-LatArm-Regular-9072.svg)
 
 }
 body{
@@ -60,6 +60,8 @@ body{
 	
 	
 	}
+	
+	
 .slides{
 	cursor:default;
 	position:absolute;
@@ -157,9 +159,10 @@ margin-right:0
 .navbar-right li a, .navbar-left li a  {
 	color: gray;
     font-size: 22px;
-    margin-left: 67px;
+    margin-left: 75px;
     font-family:arialLatArm;
     line-height: 73px;	
+	text-transform:uppercase
 }
 
 .nav li a:link{
@@ -206,7 +209,9 @@ margin-right:0
 	margin-top:-75px;
 	font-family:arialLatArm;
 	text-transform:uppercase;
-	font-weight:bold
+	font-weight:bold;
+	text-align:center;
+	width: 100%;
 }
 
 #jssor_1 {
@@ -217,9 +222,26 @@ margin-right:0
 		
 #leftArrow img, #rightArrow img{
 	 height:200px;
-	 cursor:pointer}
+	 }
 	 
-	 
+ #rightArrow{
+	width: 40px;
+    position: static;
+    top: 170px !important;
+    right: 51px;
+    transform: scale(1.43282);
+	cursor:pointer
+
+}
+
+#leftArrow 	{
+	width: 40px !important;
+    position: absolute !important;
+    top: 170px !important;
+    left: 51px;
+    transform: scale(1.43282);
+	cursor:pointer
+}
 .info{
 	display:flex;
     margin-top: 45px;
@@ -230,7 +252,8 @@ margin-right:0
 .info p{
 	color:#fff;
 	font-family:arialLatArm;
-	font-size:14px
+	font-size:14px;
+	white-space:pre-line
 	}	
 .video {
 	display: flex;
@@ -295,9 +318,12 @@ margin-right:0
 	list-style:none
 }
 
+.footer-menu ul{
+	margin-right:150px
+}
 .footer-menu ul li a{
 	color:#fff;
-    font-size: 22px;
+    font-size: 18px;
     font-family: arialLatArm;
 	text-transform:uppercase;
 	text-decoration:none;
@@ -351,7 +377,7 @@ margin-right:0
 		}
 	.navbar-right li a{
 		font-size: 14px;
-		margin-right: 54px;
+		margin-right: 58px;
 		margin-left: 0;
 		}	
 		
