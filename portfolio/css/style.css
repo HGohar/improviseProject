@@ -235,7 +235,7 @@ margin-right:0
 	 
  #rightArrow{
 	width: 40px;
-    position: static;
+    position: absolute;
     top: 170px !important;
     right: 51px;
     transform: scale(1.43282);
